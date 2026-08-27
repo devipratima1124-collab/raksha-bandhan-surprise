@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎁 Raksha Bandhan Surprise 💝</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="stars"></div>
+    
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1>💝 Raksha Bandhan Surprise 💝</h1>
+            <p class="subtitle">For My Dearest Brother</p>
+        </header>
+
+        <!-- Stage 1: Gift Box -->
+        <div class="stage" id="stage1">
+            <div class="stage-content">
+                <h2>Click to open the gift! 🎁</h2>
+                <div class="gift-box-container">
+                    <div class="gift-box" id="giftBox">
+                        <div class="gift-lid">
+                            <div class="ribbon ribbon-vertical"></div>
+                            <div class="ribbon ribbon-horizontal"></div>
+                            <div class="bow"></div>
+                        </div>
+                        <div class="gift-box-body"></div>
+                    </div>
+                </div>
+                <p class="tap-text">✨ Tap the gift to open ✨</p>
+            </div>
+        </div>
+
+        <!-- Stage 2: Rakhi Animation -->
+        <div class="stage hidden" id="stage2">
+            <div class="stage-content">
+                <h2>A Rakhi for my brother 🧵</h2>
+                <div class="rakhi-container">
+                    <div class="rakhi">
+                        <div class="rakhi-circle">
+                            <div class="rakhi-stone stone-1"></div>
+                            <div class="rakhi-stone stone-2"></div>
+                            <div class="rakhi-stone stone-3"></div>
+                            <div class="rakhi-center"></div>
+                        </div>
+                        <div class="rakhi-string left-string"></div>
+                        <div class="rakhi-string right-string"></div>
+                    </div>
+                </div>
+                <p class="message-text">Celebrating the bond we share</p>
+            </div>
+        </div>
+
+        <!-- Stage 3: Envelope & Message -->
+        <div class="stage hidden" id="stage3">
+            <div class="stage-content">
+                <h2>A message for you 💌</h2>
+                <div class="envelope-container">
+                    <div class="envelope" id="envelope">
+                        <div class="envelope-body"></div>
+                        <div class="envelope-flap"></div>
+                        <div class="letter">
+                            <p>Dear Brother,</p>
+                            <p>On this special day of Raksha Bandhan, I want to tell you how grateful I am to have you in my life.</p>
+                            <p>Thank you for always being there for me, for your care, support, and endless patience. You've been my rock, my guide, and my biggest cheerleader.</p>
+                            <p>This Rakhi is not just a thread, it's a symbol of our bond, our laughter, our memories, and our forever connection.</p>
+                            <p>No matter where life takes us, you'll always be my dear brother.</p>
+                            <p>With all my love and gratitude,</p>
+                            <p>Your Sister ❤️</p>
+                        </div>
+                    </div>
+                </div>
+                <p class="tap-text">✨ Tap the envelope to open ✨</p>
+            </div>
+        </div>
+
+        <!-- Final Stage: Celebration -->
+        <div class="stage hidden" id="stage4">
+            <div class="stage-content celebration">
+                <h2>Happy Raksha Bandhan! 🎉</h2>
+                <div class="celebration-container">
+                    <div class="heart"></div>
+                    <div class="heart"></div>
+                    <div class="heart"></div>
+                    <div class="heart"></div>
+                    <div class="heart"></div>
+                </div>
+                <p class="celebration-text">Thank you for being the best brother ever! 💕</p>
+                <div class="share-section">
+                    <p class="share-text">Share this surprise with your brother!</p>
+                    <button class="share-btn" id="shareBtn">📤 Share Link</button>
+                    <p class="share-url" id="shareUrl"></p>
+                </div>
+                <button class="restart-btn" id="restartBtn">🔄 Start Over</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
